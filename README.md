@@ -1,6 +1,6 @@
 
 # Tresorit Demo
-A basic product commenting demo that uses Azure Table Storage.
+A basic product commenting demo that uses Azure Table Storage and WCF.
 ## Functions
 There are two ways to interact with the service. You can either fetch some comments or post a single comment for a product.
 ### GetComments
