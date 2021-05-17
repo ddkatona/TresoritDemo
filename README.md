@@ -35,7 +35,8 @@ with the body of:
 
 ## Requirements
 
-Before running the service make sure that a local instance of Microsoft Azure Storage Emulator is running.
+Before running the service make sure that a local instance of Microsoft Azure Storage Emulator is running. The service automatically creates the table in the database, so having a running Azure Storage is the only requirement.
 
 ## Explanation
   - The way the service prevents the user from posting a comment before the most recent comment appears is that it requires to include the GUID of that last comment in the newly posted comment JSON's body.
+  - This is a commenting service, so creating new products is not possible. Upon first launch the service creates a few products that users can comment on: `Laptop`, `Lightsaber`, `Apple` and `Bicycle`.
